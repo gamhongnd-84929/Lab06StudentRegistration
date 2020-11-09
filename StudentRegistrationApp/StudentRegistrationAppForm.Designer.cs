@@ -33,6 +33,7 @@
             this.dataGridViewDepartmentMajorsCount = new System.Windows.Forms.DataGridView();
             this.buttonBackupDatabase = new System.Windows.Forms.Button();
             this.buttonRestoreDatabaseFromBackup = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewStudents)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewDepartments)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewDepartmentMajorsCount)).BeginInit();
@@ -88,11 +89,21 @@
             this.buttonRestoreDatabaseFromBackup.Text = "Restore Database";
             this.buttonRestoreDatabaseFromBackup.UseVisualStyleBackColor = true;
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(214, 874);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(94, 20);
+            this.label1.TabIndex = 5;
+            this.label1.Text = "Change title";
+            // 
             // StudentRegistrationAppForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1200, 943);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.buttonRestoreDatabaseFromBackup);
             this.Controls.Add(this.buttonBackupDatabase);
             this.Controls.Add(this.dataGridViewDepartmentMajorsCount);
@@ -105,6 +116,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewDepartments)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewDepartmentMajorsCount)).EndInit();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
 		}
 
@@ -115,6 +127,7 @@
 		private System.Windows.Forms.DataGridView dataGridViewDepartmentMajorsCount;
 		private System.Windows.Forms.Button buttonBackupDatabase;
 		private System.Windows.Forms.Button buttonRestoreDatabaseFromBackup;
-	}
+        private System.Windows.Forms.Label label1;
+    }
 }
 
